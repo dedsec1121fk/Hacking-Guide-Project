@@ -1,6 +1,10 @@
-# Hacking Guide Project
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3a1b4bca-119b-4aac-b91d-3dec22393db5", width="400", height="400">
+</p>
 
-**Bilingual offline cybersecurity learning guide for English and Greek, with 140 modules per language, guided learning paths, authorized labs, local search, progress tracking, and a Termux-friendly menu.**
+<h1 align="center">Hacking Guide</h1>
+
+<h4 align="center">Bilingual offline cybersecurity learning guide for English and Greek, with 140 modules per language, guided learning paths, authorized labs, local search, progress tracking, and a Termux-friendly menu.</h4>
 
 > **English:** Open the sections below to browse the project.
 >
