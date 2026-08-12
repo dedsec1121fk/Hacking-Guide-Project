@@ -1,0 +1,766 @@
+{
+  "version": "2026.08-expanded-140",
+  "languages": {
+    "en": "English",
+    "gr": "Greek"
+  },
+  "categories": [
+    {
+      "id": "01-Fundamentals-and-Methodology",
+      "modules": [
+        1,
+        5,
+        26,
+        41,
+        43,
+        50,
+        61
+      ]
+    },
+    {
+      "id": "02-Recon-Pentesting-Web-and-AppSec",
+      "modules": [
+        2,
+        3,
+        4,
+        13,
+        14,
+        15,
+        40,
+        52,
+        69,
+        70,
+        71,
+        89,
+        90,
+        108,
+        124,
+        126,
+        127
+      ]
+    },
+    {
+      "id": "03-Systems-Malware-and-Reverse-Engineering",
+      "modules": [
+        6,
+        7,
+        11,
+        33,
+        53,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        73,
+        74,
+        79,
+        84,
+        95,
+        96,
+        99,
+        109,
+        111,
+        112,
+        116,
+        117,
+        118,
+        119,
+        120
+      ]
+    },
+    {
+      "id": "04-Network-Wireless-and-Internet",
+      "modules": [
+        8,
+        10,
+        12,
+        16,
+        35,
+        51,
+        77,
+        86,
+        87,
+        88,
+        122,
+        123,
+        125
+      ]
+    },
+    {
+      "id": "05-Mobile-IoT-and-Hardware",
+      "modules": [
+        17,
+        18,
+        54,
+        55,
+        56,
+        82,
+        83,
+        103,
+        121
+      ]
+    },
+    {
+      "id": "06-Identity-Cryptography-and-Trust",
+      "modules": [
+        20,
+        21,
+        32,
+        39,
+        49,
+        72,
+        78,
+        92,
+        93,
+        100,
+        101,
+        102,
+        113,
+        128,
+        129,
+        130,
+        131,
+        132
+      ]
+    },
+    {
+      "id": "07-Cloud-Containers-and-Supply-Chain",
+      "modules": [
+        19,
+        22,
+        24,
+        75,
+        76,
+        91,
+        94,
+        97,
+        98,
+        104,
+        105,
+        133,
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "id": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "modules": [
+        23,
+        34,
+        37,
+        38,
+        44,
+        47,
+        48,
+        80,
+        81,
+        106,
+        107,
+        137
+      ]
+    },
+    {
+      "id": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "modules": [
+        9,
+        25,
+        42,
+        46,
+        57,
+        59,
+        60,
+        114,
+        138,
+        139
+      ]
+    },
+    {
+      "id": "10-Termux-and-Security-Automation",
+      "modules": [
+        28,
+        29,
+        30,
+        31,
+        36
+      ]
+    },
+    {
+      "id": "11-Labs-Capstones-and-Career",
+      "modules": [
+        27,
+        45,
+        58,
+        85,
+        110,
+        115,
+        140
+      ]
+    }
+  ],
+  "modules": {
+    "18": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "18-IoT-and-OT-Security.md"
+    },
+    "54": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "54-Hardware-Firmware-and-Boot-Security.md"
+    },
+    "103": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "103-TPM-Secure-Boot-Attestation-TEEs-and-Device-Identity.md"
+    },
+    "56": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "56-Android-Security-Deep-Dive.md"
+    },
+    "55": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "55-Bluetooth-NFC-and-Proximity-Security.md"
+    },
+    "17": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "17-Mobile-Security.md"
+    },
+    "83": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "83-Firmware-Embedded-Systems-and-Hardware-Interface-Analysis.md"
+    },
+    "82": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "82-Android-Application-Reverse-Engineering-and-Mobile-App-Internals.md"
+    },
+    "77": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "77-Network-Protocol-Reverse-Engineering-and-Traffic-Analysis.md"
+    },
+    "51": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "51-Networking-Deep-Dive.md"
+    },
+    "86": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "86-IPv6-Security-Neighbor-Discovery-and-Modern-LAN-Attack-Surfaces.md"
+    },
+    "87": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "87-DNS-Routing-BGP-and-Internet-Infrastructure-Security.md"
+    },
+    "10": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "10-Denial-of-Service.md"
+    },
+    "35": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "35-Email-DNS-and-Domain-Security.md"
+    },
+    "8": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "8-Sniffing.md"
+    },
+    "16": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "16-Hacking-Wireless-Networks.md"
+    },
+    "12": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "12-IDS-Firewalls-Honeypots-and-Detection-Validation.md"
+    },
+    "88": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "88-Enterprise-Wireless-WPA3-8021X-WiFi6-7-Security.md"
+    },
+    "38": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "38-Ransomware-Resilience-and-Recovery.md"
+    },
+    "47": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "47-SOC-SIEM-SOAR-and-Detection-Operations.md"
+    },
+    "23": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "23-Detection-Incident-Response-and-Threat-Hunting.md"
+    },
+    "106": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "106-Endpoint-EDR-Internals-Telemetry-and-Response-Architecture.md"
+    },
+    "37": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "37-Digital-Forensics-and-Evidence-Handling.md"
+    },
+    "80": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "80-Advanced-Detection-Engineering-and-ATTACK-v19.md"
+    },
+    "44": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "44-Endpoint-Browser-and-SaaS-Security.md"
+    },
+    "48": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "48-Business-Continuity-Disaster-Recovery-and-Backup-Engineering.md"
+    },
+    "34": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "34-Threat-Intelligence-and-OSINT.md"
+    },
+    "107": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "107-Threat-Emulation-Adversary-Simulation-and-Purple-Team-Lab-Design.md"
+    },
+    "81": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "81-Digital-Forensics-Filesystem-Timelines-and-Memory-Artifacts.md"
+    },
+    "31": {
+      "category": "10-Termux-and-Security-Automation",
+      "filename": "31-Termux-Security-Lab-Operations-and-Troubleshooting.md"
+    },
+    "29": {
+      "category": "10-Termux-and-Security-Automation",
+      "filename": "29-Termux-Workflow-Python-Git-and-Automation.md"
+    },
+    "36": {
+      "category": "10-Termux-and-Security-Automation",
+      "filename": "36-Python-for-Security-Automation.md"
+    },
+    "28": {
+      "category": "10-Termux-and-Security-Automation",
+      "filename": "28-Termux-Foundations-and-Android-Linux.md"
+    },
+    "30": {
+      "category": "10-Termux-and-Security-Automation",
+      "filename": "30-Termux-Networking-SSH-and-Local-Services.md"
+    },
+    "50": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "50-Vulnerability-Management-and-Attack-Surface-Management.md"
+    },
+    "43": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "43-Responsible-Disclosure-and-Bug-Bounty-Ethics.md"
+    },
+    "41": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "41-Threat-Modeling-and-Security-Architecture.md"
+    },
+    "26": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "26-Security-Assessment-Reporting-and-Purple-Teaming.md"
+    },
+    "61": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "61-Security-Research-Methodology-and-Attack-Surface-Reasoning.md"
+    },
+    "1": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "1-Introduction.md"
+    },
+    "5": {
+      "category": "01-Fundamentals-and-Methodology",
+      "filename": "5-Vulnerability-Analysis.md"
+    },
+    "110": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "110-Advanced-Authorized-Labs-II-Systems-Identity-Cloud-and-Application-Security.md"
+    },
+    "27": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "27-Authorized-Hands-On-Labs.md"
+    },
+    "85": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "85-Advanced-Authorized-Capstones.md"
+    },
+    "45": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "45-Capstones-Checklists-and-Study-Roadmaps.md"
+    },
+    "115": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "115-Master-Capstones-Research-Portfolio-and-Deep-Security-Practice.md"
+    },
+    "58": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "58-Cybersecurity-Career-and-Portfolio-Guidance.md"
+    },
+    "105": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "105-Multi-Cloud-SaaS-Federation-Tenant-Isolation-and-Control-Planes.md"
+    },
+    "104": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "104-Serverless-Edge-Workers-Functions-and-Event-Driven-Cloud-Security.md"
+    },
+    "75": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "75-Container-and-Kubernetes-Isolation-Internals.md"
+    },
+    "24": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "24-Containers-Kubernetes-and-DevSecOps.md"
+    },
+    "19": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "19-Cloud-Security.md"
+    },
+    "76": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "76-Cloud-IAM-Control-Planes-Metadata-and-Temporary-Credentials.md"
+    },
+    "98": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "98-Package-Managers-Registries-Dependency-and-Ecosystem-Security.md"
+    },
+    "97": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "97-CICD-Build-Provenance-SLSA-12-and-Artifact-Trust.md"
+    },
+    "91": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "91-Message-Queues-Event-Streaming-and-Distributed-System-Security.md"
+    },
+    "94": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "94-Virtualization-Hypervisors-VMs-and-Confidential-Computing.md"
+    },
+    "22": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "22-Secure-Software-APIs-and-Supply-Chain.md"
+    },
+    "69": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "69-Advanced-Web-Request-Processing-and-Parser-Differentials.md"
+    },
+    "108": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "108-Advanced-Code-Auditing-Static-Analysis-Dataflow-and-Taint-Reasoning.md"
+    },
+    "4": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "4-Enumeration.md"
+    },
+    "14": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "14-Hacking-Web-Applications.md"
+    },
+    "90": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "90-Database-Data-Layer-and-Query-Engine-Security.md"
+    },
+    "3": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "3-Scanning-Networks.md"
+    },
+    "13": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "13-Hacking-Web-Servers.md"
+    },
+    "40": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "40-Secure-Coding-and-OWASP-ASVS.md"
+    },
+    "71": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "71-API-Authorization-State-Machines-and-Distributed-Abuse-Cases.md"
+    },
+    "70": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "70-Browser-Isolation-Origins-CORS-CSP-and-Client-Side-Trust.md"
+    },
+    "52": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "52-Web-Browser-and-HTTP-Deep-Dive.md"
+    },
+    "2": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "2-Footprinting-and-Reconnaissance.md"
+    },
+    "15": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "15-Penetration-Testing.md"
+    },
+    "89": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "89-GraphQL-gRPC-WebSockets-and-Realtime-API-Security.md"
+    },
+    "39": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "39-OAuth-OIDC-Passkeys-and-Modern-Authentication.md"
+    },
+    "100": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "100-Cryptographic-Protocol-Engineering-Key-Agreement-and-State-Machines.md"
+    },
+    "32": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "32-Windows-and-Active-Directory-Security.md"
+    },
+    "102": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "102-Side-Channels-Timing-Cache-Faults-and-Physical-Leakage-Models.md"
+    },
+    "20": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "20-Cryptography.md"
+    },
+    "72": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "72-Kerberos-Active-Directory-and-Enterprise-Identity-Internals.md"
+    },
+    "93": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "93-Authorization-Models-RBAC-ABAC-ReBAC-and-Policy-Engines.md"
+    },
+    "101": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "101-Post-Quantum-Migration-Crypto-Agility-and-Hybrid-Deployment.md"
+    },
+    "113": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "113-Workload-Identity-SPIFFE-SPIRE-mTLS-and-Zero-Trust-Service-Identity.md"
+    },
+    "49": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "49-Secrets-PKI-and-Key-Management.md"
+    },
+    "21": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "21-Identity-Zero-Trust-and-Access-Security.md"
+    },
+    "78": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "78-TLS-PKI-and-Cryptographic-Implementation-Failures.md"
+    },
+    "92": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "92-OAuth-20-Security-BCP-OIDC-Federation-and-Token-Defense.md"
+    },
+    "114": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "114-Data-Security-DLP-Tokenization-Privacy-Engineering-and-Data-Lifecycle.md"
+    },
+    "25": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "25-AI-and-LLM-Security.md"
+    },
+    "46": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "46-Agentic-AI-MCP-and-Tool-Security.md"
+    },
+    "60": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "60-Physical-Security-and-Human-Resilience.md"
+    },
+    "42": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "42-Governance-Risk-Compliance-and-Privacy.md"
+    },
+    "59": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "59-Security-Metrics-and-Program-Measurement.md"
+    },
+    "57": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "57-Privacy-Data-Protection-and-Operational-Hygiene.md"
+    },
+    "9": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "9-Social-Engineering.md"
+    },
+    "99": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "99-Compiler-Toolchains-Sanitizers-CFI-and-Binary-Hardening.md"
+    },
+    "79": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "79-Malware-Analysis-and-Behavioral-Triage.md"
+    },
+    "68": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "68-Fuzzing-Harness-Design-and-Coverage-Guided-Testing.md"
+    },
+    "53": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "53-Memory-Safety-and-Exploit-Mitigations.md"
+    },
+    "64": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "64-Executable-Formats-Loaders-and-Dynamic-Linking.md"
+    },
+    "73": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "73-Windows-Internals-Tokens-Services-Registry-ETW-and-Security-Boundaries.md"
+    },
+    "6": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "6-System-Hacking.md"
+    },
+    "11": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "11-Session-Hijacking.md"
+    },
+    "63": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "63-Assembly-for-Security-Analysis-x86-64-and-ARM64.md"
+    },
+    "65": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "65-Debugging-Crash-Triage-and-Root-Cause-Analysis.md"
+    },
+    "96": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "96-eBPF-Observability-Linux-Telemetry-and-Detection-Engineering.md"
+    },
+    "84": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "84-Patch-Diffing-Vulnerability-Root-Cause-and-Secure-Regression-Analysis.md"
+    },
+    "112": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "112-Browser-Extensions-Electron-and-Desktop-Web-Runtime-Security.md"
+    },
+    "7": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "7-Malware.md"
+    },
+    "62": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "62-CPU-Privilege-Syscalls-and-Process-Internals.md"
+    },
+    "111": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "111-WebAssembly-JVM-CLR-and-Managed-Runtime-Security.md"
+    },
+    "95": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "95-Kernel-Security-Primitives-Attack-Surface-and-Runtime-Trust.md"
+    },
+    "109": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "109-Vulnerability-Research-Reproduction-Regression-and-Coordinated-Disclosure.md"
+    },
+    "33": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "33-Linux-Security-and-Hardening.md"
+    },
+    "74": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "74-Linux-Internals-Capabilities-Namespaces-Seccomp-LSM-and-eBPF-Security.md"
+    },
+    "67": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "67-Reverse-Engineering-and-Program-Analysis.md"
+    },
+    "66": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "66-Memory-Corruption-Mechanics-and-Mitigation-Analysis.md"
+    },
+    "116": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "116-Heap-Allocators-Object-Lifetimes-and-Memory-Debugging.md"
+    },
+    "117": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "117-Concurrency-Race-Conditions-TOCTOU-and-Atomicity.md"
+    },
+    "118": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "118-IPC-RPC-D-Bus-COM-and-Local-Trust-Boundaries.md"
+    },
+    "119": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "119-Sandboxing-Broker-Architectures-and-Isolation-Assurance.md"
+    },
+    "120": {
+      "category": "03-Systems-Malware-and-Reverse-Engineering",
+      "filename": "120-macOS-Security-Internals-TCC-SIP-Gatekeeper-Notarization-and-XProtect.md"
+    },
+    "121": {
+      "category": "05-Mobile-IoT-and-Hardware",
+      "filename": "121-iOS-Security-Internals-Entitlements-Code-Signing-Keychain-and-Data-Protection.md"
+    },
+    "122": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "122-Cellular-Networks-LTE-5G-Architecture-and-Mobile-Network-Security.md"
+    },
+    "123": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "123-Radio-SDR-and-RF-Security-Fundamentals.md"
+    },
+    "124": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "124-HTTP-2-HTTP-3-QUIC-and-Modern-Web-Transport-Security.md"
+    },
+    "125": {
+      "category": "04-Network-Wireless-and-Internet",
+      "filename": "125-DNSSEC-DoH-DoQ-Resolver-Privacy-and-DNS-Trust.md"
+    },
+    "126": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "126-CDN-Reverse-Proxy-Cache-and-Edge-Security.md"
+    },
+    "127": {
+      "category": "02-Recon-Pentesting-Web-and-AppSec",
+      "filename": "127-Serialization-Deserialization-and-Parser-Security.md"
+    },
+    "128": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "128-SAML-WS-Federation-and-Enterprise-SSO-Internals.md"
+    },
+    "129": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "129-SCIM-Identity-Lifecycle-and-Provisioning-Security.md"
+    },
+    "130": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "130-PAM-Just-in-Time-Access-JEA-and-Privileged-Access-Engineering.md"
+    },
+    "131": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "131-WebAuthn-FIDO2-and-Passkey-Internals.md"
+    },
+    "132": {
+      "category": "06-Identity-Cryptography-and-Trust",
+      "filename": "132-Secrets-Rotation-Envelope-Encryption-KMS-and-HSM-Architecture.md"
+    },
+    "133": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "133-Git-Security-Signed-Commits-Branch-Protection-and-Repository-Trust.md"
+    },
+    "134": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "134-SBOM-VEX-Provenance-and-Vulnerability-Intelligence-Pipelines.md"
+    },
+    "135": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "135-Kubernetes-Admission-Control-Policy-as-Code-and-Runtime-Guardrails.md"
+    },
+    "136": {
+      "category": "07-Cloud-Containers-and-Supply-Chain",
+      "filename": "136-Service-Mesh-mTLS-Network-Policy-and-East-West-Security.md"
+    },
+    "137": {
+      "category": "08-Blue-Team-IR-Forensics-and-Resilience",
+      "filename": "137-Cloud-Logging-Detection-and-Cross-Cloud-Investigation.md"
+    },
+    "138": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "138-RAG-Vector-Databases-and-AI-Retrieval-Security.md"
+    },
+    "139": {
+      "category": "09-AI-GRC-Privacy-Data-and-Human-Security",
+      "filename": "139-AI-Generated-Code-Vibe-Coding-and-Secure-Review.md"
+    },
+    "140": {
+      "category": "11-Labs-Capstones-and-Career",
+      "filename": "140-Advanced-Authorized-Labs-III-Modern-Protocols-Identity-Platforms-and-AI-Security.md"
+    }
+  }
+}
